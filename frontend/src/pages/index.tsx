@@ -1,6 +1,4 @@
-import { Box, Heading, VStack, Text } from "@chakra-ui/react"
-import AppBody from "../components/share/app/AppBody"
-import { AiFillAccountBook } from "react-icons/ai"
+import HomePage from "../components/template/HomePage"
 import Header from "../components/template/Header"
 import Footer from "../components/template/Footer"
 
@@ -8,6 +6,7 @@ const Home = () => {
     return (
         <>
             <Header />
+            <HomePage />
             <Footer />
         </>
     )
