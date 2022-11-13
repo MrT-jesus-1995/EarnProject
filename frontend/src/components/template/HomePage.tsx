@@ -21,7 +21,7 @@ export default function CallToActionWithIllustration() {
                 <Grid templateColumns="repeat(5, 1fr)" gap={12} p={12} align={"center"}>
                     <GridItem colSpan={2}>
                         <Button bg="#B6BDDF" size="lg" fontSize={"xl"} style={{ width: "500px", height: "75px" }} borderRadius="0" border="2px">
-                            บทที่ 1 พื้นฐานระบบเครือข่ายคอมพิวเตอร์{" "}
+                            บทที่ 1 พื้นฐานระบบเครือข่ายคอมพิวเตอร์
                         </Button>
                     </GridItem>
                     <GridItem colStart={4} colEnd={6}>
