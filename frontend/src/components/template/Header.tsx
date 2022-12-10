@@ -18,9 +18,11 @@ import {
 import { MdOutlineHome } from "react-icons/md"
 
 import { HamburgerIcon, CloseIcon, ChevronDownIcon, ChevronRightIcon } from "@chakra-ui/icons"
+import { useNavigate } from "react-router-dom"
 
 export default function WithSubnavigation() {
     const { isOpen, onToggle } = useDisclosure()
+    let navigate = useNavigate()
 
     return (
         <Box>
@@ -44,7 +46,14 @@ export default function WithSubnavigation() {
                     />
                 </Flex>
                 <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
-                    <IconButton colorScheme="Black" color={"black"} aria-label="Call Sage" fontSize="30px" icon={<MdOutlineHome />} />
+                    <IconButton
+                        colorScheme="Black"
+                        color={"black"}
+                        aria-label="Call Sage"
+                        onClick={() => navigate("/test")}
+                        fontSize="30px"
+                        icon={<MdOutlineHome />}
+                    />
 
                     <Flex display={{ base: "none", md: "flex" }} ml={10}>
                         <DesktopNav />
