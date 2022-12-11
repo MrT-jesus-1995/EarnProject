@@ -50,7 +50,7 @@ export default function WithSubnavigation() {
                         colorScheme="Black"
                         color={"black"}
                         aria-label="Call Sage"
-                        onClick={() => navigate("/test")}
+                        onClick={() => navigate("/")}
                         fontSize="30px"
                         icon={<MdOutlineHome />}
                     />
@@ -194,15 +194,15 @@ const NAV_ITEMS: Array<NavItem> = [
         children: [
             {
                 label: "บทที่ 1 พื้นฐานระบบเครือข่ายคอมพิวเตอร์",
-                href: "#",
+                href: "/chapter",
             },
             {
                 label: "บทที่ 2 อุปกรณ์ระบบเครือข่าย",
-                href: "#",
+                href: "/chapter/chapter2",
             },
             {
                 label: "บทที่ 3 ประเภทของระบบเครือข่าย",
-                href: "#",
+                href: "/chapter/chapter3",
             },
             {
                 label: "บทที่ 4 สื่อกลางนำสัญญาณในระบบเครือข่าย",

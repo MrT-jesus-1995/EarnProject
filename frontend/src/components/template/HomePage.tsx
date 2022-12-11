@@ -35,12 +35,28 @@ export default function CallToActionWithIllustration() {
                         </Button>
                     </GridItem>
                     <GridItem colStart={4} colEnd={6}>
-                        <Button bg="#C8FFD4" size="lg" fontSize={"xl"} style={{ width: "500px", height: "75px" }} borderRadius="0" border="2px">
+                        <Button
+                            bg="#C8FFD4"
+                            size="lg"
+                            fontSize={"xl"}
+                            style={{ width: "500px", height: "75px" }}
+                            borderRadius="0"
+                            border="2px"
+                            onClick={() => navigate("/chapter/chapter2")}
+                        >
                             บทที่ 2 อุปกรณ์ระบบเครือข่าย
                         </Button>
                     </GridItem>
                     <GridItem colSpan={2}>
-                        <Button bg="#FFE15D" size="lg" fontSize={"xl"} style={{ width: "500px", height: "75px" }} borderRadius="0" border="2px">
+                        <Button
+                            bg="#FFE15D"
+                            size="lg"
+                            fontSize={"xl"}
+                            style={{ width: "500px", height: "75px" }}
+                            borderRadius="0"
+                            border="2px"
+                            onClick={() => navigate("/chapter/chapter3")}
+                        >
                             บทที่ 3 ประเภทของระบบเครือข่าย
                         </Button>
                     </GridItem>
