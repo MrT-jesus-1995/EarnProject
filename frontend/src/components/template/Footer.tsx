@@ -50,10 +50,10 @@ export default function LargeWithAppLinksAndSocial() {
                     </Stack>
                     <Stack align={"flex-end"}>
                         <ListHeader>Contact</ListHeader>
-                        <SocialButton label={"Twitter"} href={"#"}>
+                        <SocialButton label={"Github"} href={"#"}>
                             <FaGithub />
                         </SocialButton>
-                        <SocialButton label={"YouTube"} href={"#"}>
+                        <SocialButton label={"Facebook"} href={"#"}>
                             <FaFacebook />
                         </SocialButton>
                         <SocialButton label={"Instagram"} href={"#"}>
