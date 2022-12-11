@@ -49,7 +49,7 @@ export default function chapter1() {
                     บทที่2 อุปกรณ์ระบบเครือข่าย
                 </Heading>
             </Stack>
-            <Text fontSize={{ base: "1.5xl", sm: "1.5xl", md: "3xl" }} lineHeight={"110%"} color="black">
+            <Text fontSize={{ base: "3xl", sm: "1.5xl", md: "3xl" }} lineHeight={"110%"} color="black">
                 2.1อุปกรณ์ที่ใช้งานในระบบเครือข่ายทั่วไป
             </Text>
             <Box gap={6} p={12}>
@@ -109,7 +109,7 @@ export default function chapter1() {
                     ดั้งนั้นการสื่อสารในระยะไกลเหล้านี้จะทำงานโดยใช้โปรโทคอลทีซีพี/ไอพี และใช้เลขที่อยู่ไอพีเป็นหมายเลขเพื่อสร้างการสื่อสาร
                     ซึ่งมีความสำคัญมากที่สุด
                 </Text>
-                <Heading fontSize={"2xl"} color="#04293A">
+                <Heading fontSize={"3xl"} color="#04293A">
                     การทำงานของเราท์เตอร์สามารถแบ่งออกได้เป็นการทำงาน 2 ส่วน
                 </Heading>
                 <Text fontSize={"2xl"} color="#04293A">
@@ -133,7 +133,7 @@ export default function chapter1() {
                     โมเด็มจะทำงานสำเร็จจนได้ด้วยการเชื่อมต่อระหว่างคอมพิวเตอร์เข้าคู่สายของโทรศัพท์ธรรมดาคู่หนึ่ง ซึ่งโมเด็มจะทำการแปลงสัญญาณดิจิทัล
                     (Digital Signal) จากเครื่องคอมพิวเตอร์ให้เป็นสัญญาณแอนะล็อก (Analog Signal) เพื่อให้สามารถส่งไปบนคู่สายของโทรศัพท์ก็ได้
                 </Text>
-                <Heading fontSize={"2xl"} color="#142850">
+                <Heading fontSize={"3xl"} color="#142850">
                     โดยแบ่งลักษณะโมเด็มเป็น 2 ชนิด คือ โมเด็มแบบติดตั้งภายใน และโมเด็มแบบติดตั้งภายนอก
                 </Heading>
                 <Text fontSize={"2xl"} color="#142850">
@@ -204,14 +204,14 @@ export default function chapter1() {
                     เป็นตัวบอกว่าเสาอากาศนี้มีคุณสมบัติในการแปลงคลื่นแม่เหล็กไฟฟ้ามาเป็นสัญญาณไฟฟ้าได้ดีเพียงใด ค่าบีมวิดท์ (Beamwidth)
                     บอกรูปร่างลักษณะการกระจายคลื่นว่าเป็นค่าเอสดับเบิลยูอาร์ (SWR) เป็นตัวเลขที่บอกถึงคลื่นที่สะท้อนกลับมาเมื่อส่งสัญญาณออกอากาศไป
                 </Text>
-                <Heading fontSize={"2xl"} color="#493323">
+                <Heading fontSize={"3xl"} color="#493323">
                     1.เสาอากาศแบบรอบตัว (Omni Directional Antenna)
                 </Heading>
                 <Text fontSize={"2xl"} color="#493323">
                     มีทิศทางการแพร่กระจายคลื่นรอบทิศทาง 360 องศา ให้ระยะทางที่ไม่ไกลนัก ในระยะรัศมี 80 เมตร
                     เหมาะสำหรับใช้ติดต่อกับเครื่องลูกข่ายที่เคลื่อนไหวอยู่ในตำแหน่งและทิศทางที่ไม่แน่นอน
                 </Text>
-                <Heading fontSize={"2xl"} color="#493323">
+                <Heading fontSize={"3xl"} color="#493323">
                     2.เสาอากาศแบบทิศทาง (Directional Antenna)
                 </Heading>
                 <Text fontSize={"2xl"} color="#493323">
@@ -220,7 +220,7 @@ export default function chapter1() {
                     ชื่อของเสาอากาศแบบที่นิยมใช้ ได้แก่ เสาอากาศแบบเซ็กเตอร์ (Sector Antenna) เสาอากาศแบบยาดิ (Yagi Antenna) เสาอากาศแบบกริด (Grid
                     Antenna) และเสาอากาศแบบจาน (Solid Dish Antenna) เป็นต้น
                 </Text>
-                <Heading fontSize={"2xl"} color="#8C0000">
+                <Heading fontSize={"3xl"} color="#8C0000">
                     สรุปสาระสำคัญ
                 </Heading>
                 <Text fontSize={"2xl"} color="#8C0000">
