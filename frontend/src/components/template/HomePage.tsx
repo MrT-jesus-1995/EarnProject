@@ -61,7 +61,15 @@ export default function CallToActionWithIllustration() {
                         </Button>
                     </GridItem>
                     <GridItem colStart={4} colEnd={6}>
-                        <Button bg="#FFABE1" size="lg" fontSize={"xl"} style={{ width: "500px", height: "75px" }} borderRadius="0" border="2px">
+                        <Button
+                            bg="#FFABE1"
+                            size="lg"
+                            fontSize={"xl"}
+                            style={{ width: "500px", height: "75px" }}
+                            borderRadius="0"
+                            border="2px"
+                            onClick={() => navigate("/chapter/chapter4")}
+                        >
                             บทที่ 4 สื่อกลางนำสัญญาณในระบบเครือข่าย
                         </Button>
                     </GridItem>
@@ -69,7 +77,15 @@ export default function CallToActionWithIllustration() {
                 <Flex gap={6} p={12}>
                     <Spacer />
                     <Box>
-                        <Button bg="#ECC5FB" size="lg" fontSize={"xl"} style={{ width: "500px", height: "75px" }} borderRadius="0" border="2px">
+                        <Button
+                            bg="#ECC5FB"
+                            size="lg"
+                            fontSize={"xl"}
+                            style={{ width: "500px", height: "75px" }}
+                            borderRadius="0"
+                            border="2px"
+                            onClick={() => navigate("/chapter/chapter5")}
+                        >
                             บทที่ 5 โปรโทคอล
                         </Button>
                     </Box>

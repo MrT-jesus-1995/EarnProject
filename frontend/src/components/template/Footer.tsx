@@ -47,8 +47,8 @@ export default function LargeWithAppLinksAndSocial() {
                         <Link href={"/chapter"}>บทที่ 1 พื้นฐานระบบเครือข่ายคอมพิวเตอร์</Link>
                         <Link href={"/chapter/chapter2"}>บทที่ 2 อุปกรณ์ระบบเครือข่าย</Link>
                         <Link href={"/chapter/chapter3"}>บทที่ 3 ประเภทของระบบเครือข่าย</Link>
-                        <Link href={"#"}>บทที่ 4 สื่อกลางนำสัญญาณในระบบเครือข่าย</Link>
-                        <Link href={"#"}>บทที่ 5 โปรโทคอล</Link>
+                        <Link href={"/chapter/chapter4"}>บทที่ 4 สื่อกลางนำสัญญาณในระบบเครือข่าย</Link>
+                        <Link href={"/chapter/chapter5"}>บทที่ 5 โปรโทคอล</Link>
                     </Stack>
                     <Stack align={"flex-end"}>
                         <ListHeader>Contact</ListHeader>
