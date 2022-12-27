@@ -52,13 +52,13 @@ export default function LargeWithAppLinksAndSocial() {
                     </Stack>
                     <Stack align={"flex-end"}>
                         <ListHeader>Contact</ListHeader>
-                        <SocialButton label={"Github"} href={"#"}>
+                        <SocialButton label={"Github"} href={"https://github.com/earnpreeya11"}>
                             <FaGithub />
                         </SocialButton>
-                        <SocialButton label={"Facebook"} href={"#"}>
+                        <SocialButton label={"Facebook"} href={"https://www.facebook.com/exrn.nn11"}>
                             <FaFacebook />
                         </SocialButton>
-                        <SocialButton label={"Instagram"} href={"#"}>
+                        <SocialButton label={"Instagram"} href={"https://www.instagram.com/qearnq/"}>
                             <FaInstagram />
                         </SocialButton>
                     </Stack>
