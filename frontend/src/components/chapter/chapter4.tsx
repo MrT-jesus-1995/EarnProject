@@ -61,7 +61,7 @@ export default function chapter1() {
                     สายคแอกเชียล และเส้นใยแก้วนำแสง มีรายละเอียดดังนี้
                 </Text>
                 <Heading fontSize={"3xl"} color="#00005C">
-                    4.1.1 สายเกลีบวคู่ (Twisted Pair Cable)
+                    4.1.1 สายเกลียวคู่ (Twisted Pair Cable)
                 </Heading>
                 <Text fontSize={"3xl"} color="#00005C">
                     สายเกลียวคู่หรือเรียกทับศัพท์ว่า สายทวิสต์แพร์ เป็นสายสัญญาณของระบบเครือข่ายที่มีราคาถูกที่สุด
