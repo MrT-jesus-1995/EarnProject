@@ -108,6 +108,9 @@ export default function chapter1() {
                 แต่เนื่องจากเป็นแบบจำลองที่มีการออกแบบโครงสร้างสมบูรณ์มากที่สุด จึงใช้เป็นแบบอ้างอิงในการพัฒนาโปรโทคอลชุดอื่น ๆ
                 และยังง่ายต่อการอธิบายกลไกการทำงาน
             </Text>
+            <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
+                <Image src="https://mindphp.com/images/knowledge/7layer.png" alt="Dan Abramov" />
+            </Box>
             <Text fontSize={"3xl"} color="#251B37">
                 แบบจำลองแบ่งขั้นตอนการสื่อสารออกเป็น 7 ชั้น เริ่มจากผู้ใช้ต้องการส่งข้อมูลไปยังคอมพิวเตอร์ ข้อมูลจะถูกส่งไปยังชั้นที่ 7
                 ข้อมูลจะถูกดัดแปลงและเพิ่มเติม และส่งต่อไปยังชั้นต่ำกว่าทำต่อไปเรื่อย ๆ จนถึงชั้นต่ำสุด
@@ -207,6 +210,9 @@ export default function chapter1() {
             <Heading fontSize={"3xl"} color="#16213E">
                 5.2.3 ขั้นตอนการเปลี่ยนแปลงและส่งผ่านข้อมูล
             </Heading>
+            <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
+                <Image src="https://www.commtech.co.th/wp-content/uploads/2022/08/OSIModel-1-1024x753.jpg" alt="Dan Abramov" />
+            </Box>
             <Text fontSize={"3xl"} color="#16213E">
                 ขั้นตอนการเปลี่ยนแปลงและส่งผ่านข้อมูล ดังรูปที่ 5.4 มีดังนี้
             </Text>
@@ -244,6 +250,9 @@ export default function chapter1() {
                 TCP/IP Model มีโครงสร้างสถาปัตยกรรม 4 ชั้น จากระดับบนสุดมาหาชั้นล่างสุด คือ ชั้นประยุกต์ ชั้นขนส่ง ชั้นอินเทอร์เน็ต
                 และชั้นควบคุมการติดต่อระดับเครือข่ายสำหรับหน้าที่ต่างๆ ในแต่ละชั้น มีรายละเอียดดังรูป 5.5
             </Text>
+            <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
+                <Image src="https://media.geeksforgeeks.org/wp-content/uploads/tcpAndOSI.png" alt="Dan Abramov" />
+            </Box>
             <Heading fontSize={"3xl"} color="#16213E">
                 1. ชั้นการประยุกต์ (Application Layer)
             </Heading>
