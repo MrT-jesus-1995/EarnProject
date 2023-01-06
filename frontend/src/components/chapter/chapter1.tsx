@@ -61,6 +61,9 @@ export default function chapter1() {
                 <Text fontSize={"3xl"} color="#00005C">
                     สำหรับระบบเครือข่ายคอมพิวเตอร์แบ่งเป็น 2 ส่วน
                 </Text>
+                <Box align={"center"}>
+                    <Image src="https://www.tutorialspoint.com/basics_of_computer_science/images/computer_networking.jpg" alt="Dan Abramov" />
+                </Box>
                 <Heading fontSize={"3xl"} color="#0002A1">
                     1.1.1 ระบบเครือข่ายย่อยในส่วนของผู้ใช้
                 </Heading>
