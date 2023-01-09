@@ -204,7 +204,7 @@ const NAV_ITEMS: Array<NavItem> = [
             },
             {
                 label: "บทที่ 4 สื่อกลางนำสัญญาณในระบบเครือข่าย",
-                href: "/chapter/chapter 4",
+                href: "/chapter/chapter4",
             },
             {
                 label: "บทที่ 5 โปรโทคอล",
