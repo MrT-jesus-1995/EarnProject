@@ -1,4 +1,4 @@
-import { Flex, Container, Heading, Stack, Text, Button, Icon, IconProps, Grid, GridItem, Box, Spacer, Image } from "@chakra-ui/react"
+import { Flex, Container, Heading, Stack, Text, Button, Icon, IconProps, Grid, GridItem, Box, Spacer, Image, Badge } from "@chakra-ui/react"
 import Chapter1 from "../components/chapter/image/pic1.jpg"
 import { extendTheme } from "@chakra-ui/react"
 
@@ -62,7 +62,10 @@ export default function chapter1() {
                     สำหรับระบบเครือข่ายคอมพิวเตอร์แบ่งเป็น 2 ส่วน
                 </Text>
                 <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
-                    <Image src="https://www.tutorialspoint.com/basics_of_computer_science/images/computer_networking.jpg" alt="Dan Abramov" />
+                    <Image src="https://www.tutorialspoint.com/basics_of_computer_science/images/computer_networking.jpg" />
+                    <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
+                        รูปที่ 1.1 www.tutorialspoint.com
+                    </Badge>
                 </Box>
                 <Heading fontSize={"3xl"} color="#0002A1">
                     1.1.1 ระบบเครือข่ายย่อยในส่วนของผู้ใช้
@@ -80,10 +83,10 @@ export default function chapter1() {
                     3.เครื่องปลายทางหรือเทอร์มินัล (Terminal) ทำหน้าที่ป้อนข้อมูลและแสดงผลที่ได้จากการประมวลผล
                 </Text>
                 <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
-                    <Image
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROb6gp3EhC4gKTWNlDWYrU5d3Bg-lNumBpCA&usqp=CAU"
-                        alt="Dan Abramov"
-                    />
+                    <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROb6gp3EhC4gKTWNlDWYrU5d3Bg-lNumBpCA&usqp=CAU" />
+                    <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
+                        รูปที่ 1.2 http://www.cc.su.ac.th/
+                    </Badge>
                 </Box>
                 <Heading fontSize={"3xl"} color="#0002A1">
                     1.1.2 ระบบเครือข่ายย่อนในส่วนของการสื่อสาร
@@ -117,7 +120,10 @@ export default function chapter1() {
                     หากการส่งข้อมูลนี้เร็วขึ้น สะดวกยิ่งขึ้น งานต่าง ๆ ก็สามารถทำได้อย่างรวดเร็วและมีประสิทธิภาพ
                 </Text>
                 <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
-                    <Image src="https://img.lovepik.com/photo/40005/9354.jpg_wh860.jpg" alt="Dan Abramov" />
+                    <Image src="https://img.lovepik.com/photo/40005/9354.jpg_wh860.jpg" />
+                    <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
+                        รูปที่ 1.3 img.lovepik.com
+                    </Badge>
                 </Box>
                 <Text fontSize={"3xl"} color="#0002A1">
                     1.2.2 เพื่อให้สามารถใช้ทรัพยากรร่วมกันได้ ในหน่วยงาน สามารถใช้งานฮาร์ดแวร์หรือซอฟต์แวร์ที่อยู่ในระบบเครือข่ายเดียวกันร่วมกันได้
@@ -125,10 +131,10 @@ export default function chapter1() {
                     ส่วนการใช้ซอฟต์แวร์ร่วมกัน คือ ผู้ใช้ในเครือข่ายสามารถใช้ซอฟต์แวร์หรือชุดโปรแกรมชุดเดียวกันได้
                     จะทำให้เกิดมาตรฐานของซอฟต์แวร์มาตรฐานเดียวกัน
                     <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
-                        <Image
-                            src="https://sites.google.com/site/winniesomwaraporn/_/rsrc/1446355629823/prayochn-khxng-kherux-khay-khxmphiwtexr/intranet%202.png"
-                            alt="Dan Abramov"
-                        />
+                        <Image src="https://sites.google.com/site/winniesomwaraporn/_/rsrc/1446355629823/prayochn-khxng-kherux-khay-khxmphiwtexr/intranet%202.png" />
+                        <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
+                            รูปที่ 1.4 winniesomwaraporn
+                        </Badge>
                     </Box>
                 </Text>
                 <Text fontSize={"3xl"} color="#0002A1">
@@ -137,10 +143,10 @@ export default function chapter1() {
                     จึงใช้การติดต่อสื่อสารกันด้วยกระดาษลดน้อยลงแทนที่จะต้องใช้จดหมายเวียนหรือส่งเอกสาร แลกเปลี่ยนเป็นการส่งอีเมลแทน
                     ช่วยประหยัดต้นทุนค่ากระดาษ
                     <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
-                        <Image
-                            src="https://sites.google.com/site/patchareeporn571031231/_/rsrc/1477562509212/rabb-kherux-khay-khxmphiwtexr/12.jpg"
-                            alt="Dan Abramov"
-                        />
+                        <Image src="https://sites.google.com/site/patchareeporn571031231/_/rsrc/1477562509212/rabb-kherux-khay-khxmphiwtexr/12.jpg" />
+                        <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
+                            รูปที่ 1.5 patchareeporn571031231
+                        </Badge>
                     </Box>
                 </Text>
                 <Text fontSize={"3xl"} color="#0002A1">
@@ -149,8 +155,11 @@ export default function chapter1() {
                     อีกทั้งระบบเครือข่ายสามารถจัดการกับบัญชีผู้ใช้ มีการกำหนด รหัสผ่าน การกำหนดสิทธิ์การเข้าใช้งาน
                     ทำให้มีความปลอดภัยและความน่าเชื่อถือเพิ่มขึ้น
                     <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
-                        <Image src="https://www.techhub.in.th/wp-content/uploads/2018/01/facebook-id-fake-03.jpg" alt="Dan Abramov" />
+                        <Image src="https://www.techhub.in.th/wp-content/uploads/2018/01/facebook-id-fake-03.jpg" />
                     </Box>
+                    <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
+                        รูปที่ 1.6 www.techhub.in.th
+                    </Badge>
                 </Text>
                 <Text fontSize={"3xl"} color="#0002A1">
                     1.2.5 เพื่อช่วยลดขั้นตอนการทำงาน การให้บริการข้อมูลต่าง ๆ บนเครือข่ายจะเป็นการลดขั้นตอนการทำงาน
@@ -297,10 +306,10 @@ export default function chapter1() {
                     (TCP/IP) เป็นโปรโทคอลที่ใช้ในระบบอินเทอร์เน็ต โดยมีการระบุผู้รับ ผู้ส่งในเครือข่าย
                     และแบ่งข้อมูลออกเป็นแพ็กเก็จส่งผ่านไปทางอินเตอร์เน็ต ซึ่งหากมีการส่งข้อมูลเกิดความผิดพลาดจะมีการร้องขอให้ส่งข้อมูลใหม่ เป็นต้น
                     <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
-                        <Image
-                            src="https://sites.google.com/site/bty12061199/_/rsrc/1443017443818/pho-r-tho-khxl/thi-si-phi-xi-phi-tcp-ip/Screen%20Shot%202558-09-23%20at%207.49.00%20PM.png"
-                            alt="Dan Abramov"
-                        />
+                        <Image src="https://sites.google.com/site/bty12061199/_/rsrc/1443017443818/pho-r-tho-khxl/thi-si-phi-xi-phi-tcp-ip/Screen%20Shot%202558-09-23%20at%207.49.00%20PM.png" />
+                        <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
+                            รูปที่ 1.8 piyaphatice042
+                        </Badge>
                     </Box>
                 </Text>
                 <Heading fontSize={"3xl"} color="#420516">
