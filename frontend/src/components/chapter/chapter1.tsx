@@ -156,10 +156,10 @@ export default function chapter1() {
                     ทำให้มีความปลอดภัยและความน่าเชื่อถือเพิ่มขึ้น
                     <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
                         <Image src="https://www.techhub.in.th/wp-content/uploads/2018/01/facebook-id-fake-03.jpg" />
+                        <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
+                            รูปที่ 1.6 www.techhub.in.th
+                        </Badge>
                     </Box>
-                    <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
-                        รูปที่ 1.6 www.techhub.in.th
-                    </Badge>
                 </Text>
                 <Text fontSize={"3xl"} color="#0002A1">
                     1.2.5 เพื่อช่วยลดขั้นตอนการทำงาน การให้บริการข้อมูลต่าง ๆ บนเครือข่ายจะเป็นการลดขั้นตอนการทำงาน
