@@ -1,4 +1,4 @@
-import { Flex, Container, Heading, Stack, Text, Button, Icon, IconProps, Grid, GridItem, Box, Spacer, Image } from "@chakra-ui/react"
+import { Flex, Container, Heading, Stack, Text, Button, Icon, IconProps, Grid, GridItem, Box, Spacer, Image, Badge } from "@chakra-ui/react"
 import Chapter1 from "../components/chapter/image/pic1.jpg"
 import { extendTheme } from "@chakra-ui/react"
 
@@ -110,6 +110,9 @@ export default function chapter1() {
             </Text>
             <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
                 <Image src="https://mindphp.com/images/knowledge/7layer.png" alt="Dan Abramov" />
+                <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
+                    รูปที่ 5.1 แบบโอเอสไอ www.gargasz.info , วิกิพีเดีย
+                </Badge>
             </Box>
             <Text fontSize={"3xl"} color="#251B37">
                 แบบจำลองแบ่งขั้นตอนการสื่อสารออกเป็น 7 ชั้น เริ่มจากผู้ใช้ต้องการส่งข้อมูลไปยังคอมพิวเตอร์ ข้อมูลจะถูกส่งไปยังชั้นที่ 7
@@ -212,6 +215,9 @@ export default function chapter1() {
             </Heading>
             <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
                 <Image src="https://www.commtech.co.th/wp-content/uploads/2022/08/OSIModel-1-1024x753.jpg" alt="Dan Abramov" />
+                <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
+                    รูปที่ 5.2 ขั้นตอนการเปลี่ยนแปลงและส่งผ่านข้อมูล https://www.commtech.co.th/en/osi-7-layers/ [01/09/2022]
+                </Badge>
             </Box>
             <Text fontSize={"3xl"} color="#16213E">
                 ขั้นตอนการเปลี่ยนแปลงและส่งผ่านข้อมูล ดังรูปที่ 5.4 มีดังนี้
@@ -252,6 +258,9 @@ export default function chapter1() {
             </Text>
             <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
                 <Image src="https://media.geeksforgeeks.org/wp-content/uploads/tcpAndOSI.png" alt="Dan Abramov" />
+                <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
+                    รูปที่ 5.3 ทีซีพี/ไอที (TPC/IT) https://www.geeksforgeeks.org/tcp-ip-model/ [16 ม.ค. 2566]
+                </Badge>
             </Box>
             <Heading fontSize={"3xl"} color="#16213E">
                 1. ชั้นการประยุกต์ (Application Layer)
