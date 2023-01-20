@@ -65,8 +65,8 @@ export default function LargeWithAppLinksAndSocial() {
                 </SimpleGrid>
             </Container>
 
-            <Box borderTopWidth={0} borderStyle={"solid"} align={"center"} borderColor={useColorModeValue("gray.200", "gray.700")}>
-                <Container>
+            <Box borderTopWidth={0} borderStyle={"solid"} borderColor={useColorModeValue("gray.200", "gray.700")}>
+                <Container centerContent>
                     <Text>© CopyRight 2022 EarnPreeya</Text>
                 </Container>
             </Box>
