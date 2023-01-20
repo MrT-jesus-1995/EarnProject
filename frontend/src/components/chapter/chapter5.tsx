@@ -66,7 +66,6 @@ export default function chapter1() {
                 เพื่อหาข้อสรุปให้เป็นมาตรฐานสากล สำหรับมาตรฐานด้านเทคโนโลยีสารสนเทศทางไอโซมีการกำหนดมาตรฐานระบบเปิด (Open System Interconnection)
                 เรียกว่า แบบจำลองโอเอสไอ
             </Text>
-
             <Heading>5.1.2 ไอทียูที (International Telecommunications Union – Telecommunication Standardization Sector : ITU - T)</Heading>
             <Text fontSize={"3xl"} color="#251B37">
                 เป็นองค์กรกำหนดมาตรฐานด้านการสื่อสารโทรคมนาคม มีหน้าที่ให้คำปรึกษาทางเทคนิคเกี่ยวกับโทรศัพท์ โทรเลข และอุปกรณ์สื่อสาร
@@ -210,6 +209,7 @@ export default function chapter1() {
             <Text fontSize={"3xl"} color="#16213E">
                 4.เปลี่ยนชั้นการทำงานได้โดยไม่กระทบกับโครงสร้างอื่น
             </Text>
+
             <Heading fontSize={"3xl"} color="#16213E">
                 5.2.3 ขั้นตอนการเปลี่ยนแปลงและส่งผ่านข้อมูล
             </Heading>

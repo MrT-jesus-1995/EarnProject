@@ -160,7 +160,7 @@ export default function chapter1() {
                 <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
                     <Image src="https://sites.google.com/site/wwwrujbodyslamcom/_/rsrc/1344327210559/kar-suxsar-khxmul-laea-kherux-khay/prapheth-khxng-kherux-khay/Cc751420.wan_msp02_big%28l%3Den-us%29.gif?w=144" />
                     <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
-                        รูปที่ 3.5 wwwrujbodyslamcom
+                        รูปที่ 3.5 www.rujbodyslam.com
                     </Badge>
                 </Box>
                 <Heading fontSize={"3xl"} color="#16213E">

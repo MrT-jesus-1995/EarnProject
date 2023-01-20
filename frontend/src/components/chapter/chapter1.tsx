@@ -154,7 +154,7 @@ export default function chapter1() {
                     ข้อมูลถูกจัดเก็บไว้ในเครื่องที่เป็นศูนย์กลาง ข้อมูลมีความน่าเชื่อถือ และมีการปรับปรุงข้อมูลให้ทันสมัยตลอดเวลา
                     อีกทั้งระบบเครือข่ายสามารถจัดการกับบัญชีผู้ใช้ มีการกำหนด รหัสผ่าน การกำหนดสิทธิ์การเข้าใช้งาน
                     ทำให้มีความปลอดภัยและความน่าเชื่อถือเพิ่มขึ้น
-                    <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
+                    <Box align={"center"} spacing={{ base: 3, md: 5 }} py={{ base: 8, md: 14 }}>
                         <Image src="https://www.techhub.in.th/wp-content/uploads/2018/01/facebook-id-fake-03.jpg" />
                         <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
                             รูปที่ 1.6 www.techhub.in.th
