@@ -64,7 +64,7 @@ export default function chapter1() {
                 <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
                     <Image src="https://www.tutorialspoint.com/basics_of_computer_science/images/computer_networking.jpg" />
                     <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
-                        รูปที่ 1.1 
+                        รูปที่ 1.1 เครือข่ายย่อยในส่วนของการสื่อสาร
                     </Badge>
                 </Box>
                 <Heading fontSize={"3xl"} color="#0002A1">
@@ -85,7 +85,7 @@ export default function chapter1() {
                 <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
                     <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROb6gp3EhC4gKTWNlDWYrU5d3Bg-lNumBpCA&usqp=CAU" />
                     <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
-                        รูปที่ 1.2
+                        รูปที่ 1.2 การณ์แลกเปลี่ยนข้อมูล
                     </Badge>
                 </Box>
                 <Heading fontSize={"3xl"} color="#0002A1">
@@ -122,7 +122,7 @@ export default function chapter1() {
                 <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
                     <Image src="https://img.lovepik.com/photo/40005/9354.jpg_wh860.jpg" />
                     <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
-                        รูปที่ 1.3 
+                        รูปที่ 1.3 การใช้ทรัพยากรร่วมกัน
                     </Badge>
                 </Box>
                 <Text fontSize={"3xl"} color="#0002A1">
@@ -133,7 +133,7 @@ export default function chapter1() {
                     <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
                         <Image src="https://sites.google.com/site/winniesomwaraporn/_/rsrc/1446355629823/prayochn-khxng-kherux-khay-khxmphiwtexr/intranet%202.png" />
                         <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
-                            รูปที่ 1.4 
+                            รูปที่ 1.4 การเข้าสู่ระบบด้วยรหัสผ่านเพื่อความปลอดภัย
                         </Badge>
                     </Box>
                 </Text>
@@ -145,7 +145,7 @@ export default function chapter1() {
                     <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
                         <Image src="https://sites.google.com/site/patchareeporn571031231/_/rsrc/1477562509212/rabb-kherux-khay-khxmphiwtexr/12.jpg" />
                         <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
-                            รูปที่ 1.5 
+                            รูปที่ 1.5 ส่งเอกสารผ่านอินเทอร์เน็ต
                         </Badge>
                     </Box>
                 </Text>
@@ -157,7 +157,7 @@ export default function chapter1() {
                     <Box align={"center"} spacing={{ base: 3, md: 5 }} py={{ base: 8, md: 14 }}>
                         <Image src="https://www.techhub.in.th/wp-content/uploads/2018/01/facebook-id-fake-03.jpg" />
                         <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
-                            รูปที่ 1.6 
+                            รูปที่ 1.6 ความสะดวกในด้านการสื่อสาร
                         </Badge>
                     </Box>
                 </Text>
@@ -308,7 +308,7 @@ export default function chapter1() {
                     <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
                         <Image src="https://sites.google.com/site/bty12061199/_/rsrc/1443017443818/pho-r-tho-khxl/thi-si-phi-xi-phi-tcp-ip/Screen%20Shot%202558-09-23%20at%207.49.00%20PM.png" />
                         <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
-                            รูปที่ 1.7 
+                            รูปที่ 1.7 การณ์ทำงานของโปรโทคอลทีซีพี อี (TCP/IP)
                         </Badge>
                     </Box>
                 </Text>

@@ -88,7 +88,7 @@ export default function chapter1() {
                 <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
                     <Image boxSize="500px" src="https://www.mindphp.com/images/knowledge/092559/18.jpg" />
                     <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
-                        รูปที่ 4.1 รูปร่างของสายเกลียวคู่แบบไม่มีฉนวนหุ้มตีเกลียวเป็นคู่ ๆ จำนวน 4 คู่ www.kmitl.ac.th/en. [29 ส.ค. 2017].
+                        รูปที่ 4.1 รูปร่างของสายเกลียวคู่แบบไม่มีฉนวนหุ้มตีเกลียวเป็นคู่ ๆ จำนวน 4 คู่
                     </Badge>
                 </Box>
                 <Heading fontSize={"3xl"} color="#493323">
