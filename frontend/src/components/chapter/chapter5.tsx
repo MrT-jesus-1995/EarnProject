@@ -110,7 +110,7 @@ export default function chapter1() {
             <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
                 <Image src="https://mindphp.com/images/knowledge/7layer.png" alt="Dan Abramov" />
                 <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
-                    รูปที่ 5.1 แบบโอเอสไอ www.gargasz.info , วิกิพีเดีย
+                    รูปที่ 5.1 แบบโอเอสไอ
                 </Badge>
             </Box>
             <Text fontSize={"3xl"} color="#251B37">
@@ -216,7 +216,7 @@ export default function chapter1() {
             <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
                 <Image src="https://www.commtech.co.th/wp-content/uploads/2022/08/OSIModel-1-1024x753.jpg" alt="Dan Abramov" />
                 <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
-                    รูปที่ 5.2 ขั้นตอนการเปลี่ยนแปลงและส่งผ่านข้อมูล https://www.commtech.co.th/en/osi-7-layers/ [01/09/2022]
+                    รูปที่ 5.2 ขั้นตอนการเปลี่ยนแปลงและส่งผ่านข้อมูล
                 </Badge>
             </Box>
             <Text fontSize={"3xl"} color="#16213E">
@@ -259,7 +259,7 @@ export default function chapter1() {
             <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
                 <Image src="https://media.geeksforgeeks.org/wp-content/uploads/tcpAndOSI.png" alt="Dan Abramov" />
                 <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
-                    รูปที่ 5.3 ทีซีพี/ไอที (TPC/IT) https://www.geeksforgeeks.org/tcp-ip-model/ [16 ม.ค. 2566]
+                    รูปที่ 5.3 ทีซีพี/ไอที (TPC/IT)
                 </Badge>
             </Box>
             <Heading fontSize={"3xl"} color="#16213E">
