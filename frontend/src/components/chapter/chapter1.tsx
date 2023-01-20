@@ -1,4 +1,4 @@
-import { Flex, Container, Heading, Stack, Text, Button, Icon, IconProps, Grid, GridItem, Box, Spacer, Image, Badge } from "@chakra-ui/react"
+import { Flex, Container, Heading, Stack, Text, Button, Icon, IconProps, Grid, GridItem, Box, Spacer, Image, Badge, Center } from "@chakra-ui/react"
 import Chapter1 from "../components/chapter/image/pic1.jpg"
 import { extendTheme } from "@chakra-ui/react"
 
@@ -61,12 +61,12 @@ export default function chapter1() {
                 <Text fontSize={"3xl"} color="#00005C">
                     สำหรับระบบเครือข่ายคอมพิวเตอร์แบ่งเป็น 2 ส่วน
                 </Text>
-                <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
+                <Stack display="flex" mt="2" alignItems="center" py={{ base: 10, md: 18 }}>
                     <Image src="https://www.tutorialspoint.com/basics_of_computer_science/images/computer_networking.jpg" />
                     <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
                         รูปที่ 1.1 เครือข่ายย่อยในส่วนของการสื่อสาร
                     </Badge>
-                </Box>
+                </Stack>
                 <Heading fontSize={"3xl"} color="#0002A1">
                     1.1.1 ระบบเครือข่ายย่อยในส่วนของผู้ใช้
                 </Heading>
@@ -82,12 +82,12 @@ export default function chapter1() {
                 <Text fontSize={"3xl"} color="#0002A1">
                     3.เครื่องปลายทางหรือเทอร์มินัล (Terminal) ทำหน้าที่ป้อนข้อมูลและแสดงผลที่ได้จากการประมวลผล
                 </Text>
-                <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
+                <Stack display="flex" mt="2" alignItems="center" py={{ base: 10, md: 18 }}>
                     <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROb6gp3EhC4gKTWNlDWYrU5d3Bg-lNumBpCA&usqp=CAU" />
                     <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
                         รูปที่ 1.2 การณ์แลกเปลี่ยนข้อมูล
                     </Badge>
-                </Box>
+                </Stack>
                 <Heading fontSize={"3xl"} color="#0002A1">
                     1.1.2 ระบบเครือข่ายย่อนในส่วนของการสื่อสาร
                 </Heading>
@@ -119,47 +119,47 @@ export default function chapter1() {
                     1.2.1 เพื่อให้มีการแลกเปลี่ยนข้อมูลกันได้ระหว่างผู้ใช้อย่างมีประสิทธิภาพ ผู้ใช้ต้องมีการแลกเปลี่ยนข้อมูลกันอยู่เสมอ
                     หากการส่งข้อมูลนี้เร็วขึ้น สะดวกยิ่งขึ้น งานต่าง ๆ ก็สามารถทำได้อย่างรวดเร็วและมีประสิทธิภาพ
                 </Text>
-                <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
+                <Stack display="flex" mt="2" alignItems="center" py={{ base: 10, md: 18 }}>
                     <Image src="https://img.lovepik.com/photo/40005/9354.jpg_wh860.jpg" />
                     <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
                         รูปที่ 1.3 การใช้ทรัพยากรร่วมกัน
                     </Badge>
-                </Box>
+                </Stack>
                 <Text fontSize={"3xl"} color="#0002A1">
                     1.2.2 เพื่อให้สามารถใช้ทรัพยากรร่วมกันได้ ในหน่วยงาน สามารถใช้งานฮาร์ดแวร์หรือซอฟต์แวร์ที่อยู่ในระบบเครือข่ายเดียวกันร่วมกันได้
                     เช่น การแชร์เครื่องพิมพ์ โดยทุกเครื่องในระบบเครือข่าย สามารถใช้งานเครื่องพิมพ์เครื่องนั้นได้ โดยไม่ต้องสลับกันไว้
                     ส่วนการใช้ซอฟต์แวร์ร่วมกัน คือ ผู้ใช้ในเครือข่ายสามารถใช้ซอฟต์แวร์หรือชุดโปรแกรมชุดเดียวกันได้
                     จะทำให้เกิดมาตรฐานของซอฟต์แวร์มาตรฐานเดียวกัน
-                    <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
+                    <Stack display="flex" mt="2" alignItems="center" py={{ base: 10, md: 18 }}>
                         <Image src="https://sites.google.com/site/winniesomwaraporn/_/rsrc/1446355629823/prayochn-khxng-kherux-khay-khxmphiwtexr/intranet%202.png" />
                         <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
                             รูปที่ 1.4 การเข้าสู่ระบบด้วยรหัสผ่านเพื่อความปลอดภัย
                         </Badge>
-                    </Box>
+                    </Stack>
                 </Text>
                 <Text fontSize={"3xl"} color="#0002A1">
                     1.2.3 เพื่อความประหยัด องค์กรสามารถประหยัดค่าใช้จ่ายได้อย่างมาก เช่น
                     การแชร์เครื่องพิมพ์ทำให้ไม่จำเป็นต้องซื้อเครื่องพิมพ์หลายเครื่อง การแชร์ซอฟต์แวร์ทำให้ไม่จำเป็นต้องซื้อซอฟต์แวร์หลายชุด
                     จึงใช้การติดต่อสื่อสารกันด้วยกระดาษลดน้อยลงแทนที่จะต้องใช้จดหมายเวียนหรือส่งเอกสาร แลกเปลี่ยนเป็นการส่งอีเมลแทน
                     ช่วยประหยัดต้นทุนค่ากระดาษ
-                    <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
+                    <Stack display="flex" mt="2" alignItems="center" py={{ base: 10, md: 18 }}>
                         <Image src="https://sites.google.com/site/patchareeporn571031231/_/rsrc/1477562509212/rabb-kherux-khay-khxmphiwtexr/12.jpg" />
                         <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
                             รูปที่ 1.5 ส่งเอกสารผ่านอินเทอร์เน็ต
                         </Badge>
-                    </Box>
+                    </Stack>
                 </Text>
                 <Text fontSize={"3xl"} color="#0002A1">
                     1.2.4 เพื่อสร้างความน่าเชื่อถือและความปลอดภัยของระบบ ระบบเครือข่ายจะช่วยให้ผู้ดูแลระบบจัดการระบบได้ง่ายและสะดวกขึ้น
                     ข้อมูลถูกจัดเก็บไว้ในเครื่องที่เป็นศูนย์กลาง ข้อมูลมีความน่าเชื่อถือ และมีการปรับปรุงข้อมูลให้ทันสมัยตลอดเวลา
                     อีกทั้งระบบเครือข่ายสามารถจัดการกับบัญชีผู้ใช้ มีการกำหนด รหัสผ่าน การกำหนดสิทธิ์การเข้าใช้งาน
                     ทำให้มีความปลอดภัยและความน่าเชื่อถือเพิ่มขึ้น
-                    <Box align={"center"} spacing={{ base: 3, md: 5 }} py={{ base: 8, md: 14 }}>
+                    <Stack display="flex" mt="2" alignItems="center" py={{ base: 10, md: 18 }}>
                         <Image src="https://www.techhub.in.th/wp-content/uploads/2018/01/facebook-id-fake-03.jpg" />
                         <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
                             รูปที่ 1.6 ความสะดวกในด้านการสื่อสาร
                         </Badge>
-                    </Box>
+                    </Stack>
                 </Text>
                 <Text fontSize={"3xl"} color="#0002A1">
                     1.2.5 เพื่อช่วยลดขั้นตอนการทำงาน การให้บริการข้อมูลต่าง ๆ บนเครือข่ายจะเป็นการลดขั้นตอนการทำงาน
@@ -305,12 +305,12 @@ export default function chapter1() {
                     หรือข้อกำหนดเพื่อให้ผู้ส่งและผู้รับสามารถสื่อสารกันได้อย่างเข้าใจและส่งผลให้การสื่อสารทั้งสองฝ่ายเกิดผลสัมฤทธิ์ เช่น ทีซีพี ไอพี
                     (TCP/IP) เป็นโปรโทคอลที่ใช้ในระบบอินเทอร์เน็ต โดยมีการระบุผู้รับ ผู้ส่งในเครือข่าย
                     และแบ่งข้อมูลออกเป็นแพ็กเก็จส่งผ่านไปทางอินเตอร์เน็ต ซึ่งหากมีการส่งข้อมูลเกิดความผิดพลาดจะมีการร้องขอให้ส่งข้อมูลใหม่ เป็นต้น
-                    <Box align={"center"} spacing={{ base: 5, md: 7 }} py={{ base: 10, md: 18 }}>
+                    <Stack display="flex" mt="2" alignItems="center" py={{ base: 10, md: 18 }}>
                         <Image src="https://sites.google.com/site/bty12061199/_/rsrc/1443017443818/pho-r-tho-khxl/thi-si-phi-xi-phi-tcp-ip/Screen%20Shot%202558-09-23%20at%207.49.00%20PM.png" />
                         <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
                             รูปที่ 1.7 การณ์ทำงานของโปรโทคอลทีซีพี อี (TCP/IP)
                         </Badge>
-                    </Box>
+                    </Stack>
                 </Text>
                 <Heading fontSize={"3xl"} color="#420516">
                     สรุปสาระสำคัญ
