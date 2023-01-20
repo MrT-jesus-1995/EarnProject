@@ -1,8 +1,10 @@
 import { ReactNode } from "react"
 import { Box, Container, Stack, SimpleGrid, Text, Link, VisuallyHidden, chakra, useColorModeValue } from "@chakra-ui/react"
 import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa"
+import { useNavigate } from "react-router-dom"
 
 const ListHeader = ({ children }: { children: ReactNode }) => {
+    let navigate = useNavigate()
     return (
         <Text fontWeight={"500"} fontSize={"lg"} mb={2}>
             {children}
@@ -41,22 +43,22 @@ export default function LargeWithAppLinksAndSocial() {
                 <SimpleGrid columns={{ base: 1, sm: 2, md: 2 }} spacing={8}>
                     <Stack align={"flex-start"} fontSize={"sm"}>
                         <ListHeader>Link</ListHeader>
-                        <Link href={"#"}>Home</Link>
-                        <Link href={"#"}>บทที่ 1 พื้นฐานระบบเครือข่ายคอมพิวเตอร์</Link>
-                        <Link href={"#"}>บทที่ 2 อุปกรณ์ระบบเครือข่าย</Link>
-                        <Link href={"#"}>บทที่ 3 ประเภทของระบบเครือข่าย</Link>
-                        <Link href={"#"}>บทที่ 4 สื่อกลางนำสัญญาณในระบบเครือข่าย</Link>
-                        <Link href={"#"}>บทที่ 5 โปรโทคอล</Link>
+                        <Link href={"/"}>Home</Link>
+                        <Link href={"/chapter"}>บทที่ 1 พื้นฐานระบบเครือข่ายคอมพิวเตอร์</Link>
+                        <Link href={"/chapter/chapter2"}>บทที่ 2 อุปกรณ์ระบบเครือข่าย</Link>
+                        <Link href={"/chapter/chapter3"}>บทที่ 3 ประเภทของระบบเครือข่าย</Link>
+                        <Link href={"/chapter/chapter4"}>บทที่ 4 สื่อกลางนำสัญญาณในระบบเครือข่าย</Link>
+                        <Link href={"/chapter/chapter5"}>บทที่ 5 โปรโทคอล</Link>
                     </Stack>
                     <Stack align={"flex-end"}>
                         <ListHeader>Contact</ListHeader>
-                        <SocialButton label={"Twitter"} href={"#"}>
+                        <SocialButton label={"Github"} href={"https://github.com/earnpreeya11"}>
                             <FaGithub />
                         </SocialButton>
-                        <SocialButton label={"YouTube"} href={"#"}>
+                        <SocialButton label={"Facebook"} href={"https://www.facebook.com/exrn.nn11"}>
                             <FaFacebook />
                         </SocialButton>
-                        <SocialButton label={"Instagram"} href={"#"}>
+                        <SocialButton label={"Instagram"} href={"https://www.instagram.com/qearnq/"}>
                             <FaInstagram />
                         </SocialButton>
                     </Stack>

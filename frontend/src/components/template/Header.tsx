@@ -3,7 +3,6 @@ import {
     Flex,
     Text,
     IconButton,
-    Button,
     Stack,
     Collapse,
     Icon,
@@ -12,15 +11,16 @@ import {
     PopoverTrigger,
     PopoverContent,
     useColorModeValue,
-    useBreakpointValue,
     useDisclosure,
 } from "@chakra-ui/react"
 import { MdOutlineHome } from "react-icons/md"
 
 import { HamburgerIcon, CloseIcon, ChevronDownIcon, ChevronRightIcon } from "@chakra-ui/icons"
+import { useNavigate } from "react-router-dom"
 
 export default function WithSubnavigation() {
     const { isOpen, onToggle } = useDisclosure()
+    let navigate = useNavigate()
 
     return (
         <Box>
@@ -44,7 +44,14 @@ export default function WithSubnavigation() {
                     />
                 </Flex>
                 <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
-                    <IconButton colorScheme="Black" color={"black"} aria-label="Call Sage" fontSize="30px" icon={<MdOutlineHome />} />
+                    <IconButton
+                        colorScheme="Black"
+                        color={"black"}
+                        aria-label="Call Sage"
+                        onClick={() => navigate("/")}
+                        fontSize="30px"
+                        icon={<MdOutlineHome />}
+                    />
 
                     <Flex display={{ base: "none", md: "flex" }} ml={10}>
                         <DesktopNav />
@@ -185,23 +192,23 @@ const NAV_ITEMS: Array<NavItem> = [
         children: [
             {
                 label: "บทที่ 1 พื้นฐานระบบเครือข่ายคอมพิวเตอร์",
-                href: "#",
+                href: "/chapter",
             },
             {
                 label: "บทที่ 2 อุปกรณ์ระบบเครือข่าย",
-                href: "#",
+                href: "/chapter/chapter2",
             },
             {
                 label: "บทที่ 3 ประเภทของระบบเครือข่าย",
-                href: "#",
+                href: "/chapter/chapter3",
             },
             {
                 label: "บทที่ 4 สื่อกลางนำสัญญาณในระบบเครือข่าย",
-                href: "#",
+                href: "/chapter/chapter4",
             },
             {
                 label: "บทที่ 5 โปรโทคอล",
-                href: "#",
+                href: "/chapter/chapter5",
             },
         ],
     },
