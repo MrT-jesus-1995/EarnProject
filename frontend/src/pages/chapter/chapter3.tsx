@@ -2,13 +2,16 @@ import HomePage from "../../components/template/HomePage"
 import Header from "../../components/template/Header"
 import Footer from "../../components/template/Footer"
 import Chapter3 from "../../components/chapter/chapter3"
+import { Box } from "@chakra-ui/react"
 
 const Home = () => {
     return (
         <>
-            <Header />
-            <Chapter3 />
-            <Footer />
+            <Box bg={"#fff0fa  "}>
+                <Header />
+                <Chapter3 />
+                <Footer />
+            </Box>
         </>
     )
 }
