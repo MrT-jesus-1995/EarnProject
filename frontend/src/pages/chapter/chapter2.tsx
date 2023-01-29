@@ -7,7 +7,7 @@ import { Box } from "@chakra-ui/react"
 const Home = () => {
     return (
         <>
-            <Box bg={"#e2f9d9 "}>
+            <Box bg={"#e2f9d9"}>
                 <Header />
                 <Chapter2 />
                 <Footer />

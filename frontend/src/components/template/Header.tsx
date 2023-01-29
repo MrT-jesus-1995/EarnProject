@@ -210,6 +210,10 @@ const NAV_ITEMS: Array<NavItem> = [
                 label: "บทที่ 5 โปรโทคอล",
                 href: "/chapter/chapter5",
             },
+            {
+                label: "แบบทดสอบพื้นฐานคอมผิวเตอร์",
+                href: "https://forms.gle/2D6gvSXztwypXcT56",
+            },
         ],
     },
 ]

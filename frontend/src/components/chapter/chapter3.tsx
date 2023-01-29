@@ -1,47 +1,6 @@
 import { Flex, Container, Heading, Stack, Text, Button, Icon, IconProps, Grid, GridItem, Box, Spacer, Image, Badge, Center } from "@chakra-ui/react"
-import Chapter1 from "../components/chapter/image/pic1.jpg"
-import { extendTheme } from "@chakra-ui/react"
 
 export default function chapter1() {
-    const spacing = {
-        space: {
-            px: "1px",
-            0.5: "0.125rem",
-            1: "0.25rem",
-            1.5: "0.375rem",
-            2: "0.5rem",
-            2.5: "0.625rem",
-            3: "0.75rem",
-            3.5: "0.875rem",
-            4: "1rem",
-            5: "1.25rem",
-            6: "1.5rem",
-            7: "1.75rem",
-            8: "2rem",
-            9: "2.25rem",
-            10: "2.5rem",
-            12: "3rem",
-            14: "3.5rem",
-            16: "4rem",
-            20: "5rem",
-            24: "6rem",
-            28: "7rem",
-            32: "8rem",
-            36: "9rem",
-            40: "10rem",
-            44: "11rem",
-            48: "12rem",
-            52: "13rem",
-            56: "14rem",
-            60: "15rem",
-            64: "16rem",
-            72: "18rem",
-            80: "20rem",
-            96: "24rem",
-        },
-    }
-    const theme = extendTheme({ ...spacing })
-
     return (
         <Container maxW={"9xl"}>
             <Stack textAlign={"center"} align={"center"} spacing={{ base: 8, md: 10 }} py={{ base: 20, md: 28 }}>
@@ -49,7 +8,7 @@ export default function chapter1() {
                     บทที่ 3 ประเภทของระบบเครือข่าย
                 </Heading>
             </Stack>
-            <Text fontSize={{ base: "3xl", sm: "1.5xl", md: "3xl" }} lineHeight={"110%"} color="black">
+            <Text fontSize={{ base: "3xl", sm: "1.5xl", md: "3xl" }} lineHeight={"110%"} color="black" p={6}>
                 3.1 เครือข่ายส่วนบุคคล (Personal Area Network)
             </Text>
             <Box gap={6} p={12}>
@@ -75,7 +34,7 @@ export default function chapter1() {
                         รูปที่ 3.1 การเชื่อมต่อเครือข่ายส่วนบุคคล
                     </Badge>
                 </Stack>
-                <Heading fontSize={"3xl"} color="#251B37">
+                <Heading fontSize={"3xl"} color="#251B37" p={6}>
                     3.2 เครือข่ายท้องถิ่น (Local Area Network)
                 </Heading>
                 <Text fontSize={"3xl"} color="#251B37">
@@ -90,7 +49,7 @@ export default function chapter1() {
                     และสายสัญญาณที่ใช้ เทคโนโลยีแลนแต่ละประเภทมีทั้งข้อดีและข้อเสียที่แตกต่างกัน
                     การเลือกใช้เทคโนโลยีนี้ควรให้เหมาะสมกับลักษณะการใช้งานเครือข่ายขององค์กร
                 </Text>
-                <Heading fontSize={"3xl"} color="#16213E">
+                <Heading fontSize={"3xl"} color="#16213E" p={6}>
                     1.อีเธอร์เน็ต (Ethernet)
                 </Heading>
                 <Text fontSize={"3xl"} color="#16213E">
@@ -112,7 +71,7 @@ export default function chapter1() {
                         รูปที่ 3.2 เครือข่ายอีเธอร์เน็ต
                     </Badge>
                 </Stack>
-                <Heading fontSize={"3xl"} color="#16213E">
+                <Heading fontSize={"3xl"} color="#16213E" p={6}>
                     2.โทเคนริง (Token Ring)
                 </Heading>
                 <Text fontSize={"3xl"} color="#16213E">
@@ -120,7 +79,7 @@ export default function chapter1() {
                     โทเคนริงมักนิยมใช้กันในสมัยแรกเนื่องจากมีข้อดีคือการส่งข้อมูลในเครือข่ายจะไม่มีการชนกันของข้อมูล
                     ข้อเสียคือความสามารถในการขยายเครือข่ายและการบริการจัดการเครือข่ายทำได้ยาก
                 </Text>
-                <Heading fontSize={"3xl"} color="#16213E">
+                <Heading fontSize={"3xl"} color="#16213E" p={6}>
                     3.เอทีเอ็ม (Asynchronous Transfer Mode: ATM)
                 </Heading>
                 <Text fontSize={"3xl"} color="#16213E">
@@ -133,7 +92,7 @@ export default function chapter1() {
                         รูปที่ 3.3 เอทีเอ็ม (Asynchronous Transfer Mode: ATM)
                     </Badge>
                 </Stack>
-                <Heading fontSize={"3xl"} color="#16213E">
+                <Heading fontSize={"3xl"} color="#16213E" p={6}>
                     4.เครือข่ายแลนไร้สาย (Wireless Local Area Network/ WLANs)
                 </Heading>
                 <Text fontSize={"3xl"} color="#16213E">
@@ -148,7 +107,7 @@ export default function chapter1() {
                         รูปที่ 3.4 เครือข่ายแลนไร้สาย (Wireless Local Area Network/ WLANs)
                     </Badge>
                 </Stack>
-                <Heading fontSize={"3xl"} color="#16213E">
+                <Heading fontSize={"3xl"} color="#16213E" p={6}>
                     3.3 เครือข่ายระดับเมือง (Metropolitan Area Network)
                 </Heading>
                 <Text fontSize={"3xl"} color="#16213E">
@@ -163,7 +122,7 @@ export default function chapter1() {
                         รูปที่ 3.5 เครือข่ายระดับเมือง (Metropolitan Area Network)
                     </Badge>
                 </Stack>
-                <Heading fontSize={"3xl"} color="#16213E">
+                <Heading fontSize={"3xl"} color="#16213E" p={6}>
                     3.4 เครือข่ายระดับประเทศ (Wide Area Network)
                 </Heading>
                 <Text fontSize={"3xl"} color="#16213E">
