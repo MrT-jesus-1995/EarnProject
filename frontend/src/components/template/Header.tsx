@@ -109,8 +109,16 @@ const DesktopNav = () => {
 }
 
 const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
+    let navigate = useNavigate()
     return (
-        <Link href={href} role={"group"} display={"block"} p={2} rounded={"md"} _hover={{ bg: useColorModeValue("pink.50", "gray.900") }}>
+        <Link
+            onClick={() => navigate(href ?? "#")}
+            role={"group"}
+            display={"block"}
+            p={2}
+            rounded={"md"}
+            _hover={{ bg: useColorModeValue("pink.50", "gray.900") }}
+        >
             <Stack direction={"row"} align={"center"}>
                 <Box>
                     <Text transition={"all .3s ease"} _groupHover={{ color: "pink.400" }} fontWeight={500}>
@@ -146,13 +154,13 @@ const MobileNav = () => {
 
 const MobileNavItem = ({ label, children, href }: NavItem) => {
     const { isOpen, onToggle } = useDisclosure()
-
+    let navigate = useNavigate()
     return (
         <Stack spacing={4} onClick={children && onToggle}>
             <Flex
                 py={2}
                 as={Link}
-                href={href ?? "#"}
+                onClick={() => navigate(href ?? "#")}
                 justify={"space-between"}
                 align={"center"}
                 _hover={{
@@ -183,7 +191,7 @@ interface NavItem {
     label: string
     subLabel?: string
     children?: Array<NavItem>
-    href?: string
+    href?: any
 }
 
 const NAV_ITEMS: Array<NavItem> = [
