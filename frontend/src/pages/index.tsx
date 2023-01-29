@@ -6,7 +6,7 @@ import Footer from "../components/template/Footer"
 const Home = () => {
     return (
         <>
-            <Box bg={"#FAF7F0"}>
+            <Box bgGradient="linear(to-l, #FFF2F2, #E5E0FF , #E8D3FF  )">
                 <Header />
                 <HomePage />
                 <Footer />

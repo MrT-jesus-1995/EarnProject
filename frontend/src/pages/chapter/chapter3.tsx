@@ -7,7 +7,7 @@ import { Box } from "@chakra-ui/react"
 const Home = () => {
     return (
         <>
-            <Box bg={"#fff0fa  "}>
+            <Box bgGradient="linear(to-l, #FFCEFE  , #AEE2FF)">
                 <Header />
                 <Chapter3 />
                 <Footer />
