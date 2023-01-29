@@ -4,7 +4,6 @@ import { FaFacebook, FaGithub, FaInstagram } from "react-icons/fa"
 import { useNavigate } from "react-router-dom"
 
 const ListHeader = ({ children }: { children: ReactNode }) => {
-    let navigate = useNavigate()
     return (
         <Text fontWeight={"500"} fontSize={"lg"} mb={2}>
             {children}
@@ -37,18 +36,19 @@ const SocialButton = ({ children, label, href }: { children: ReactNode; label: s
 }
 
 export default function LargeWithAppLinksAndSocial() {
+    let navigate = useNavigate()
     return (
         <Box bg={useColorModeValue("#98A8F8", "gray.900")} color={useColorModeValue("gray.700", "gray.200")}>
             <Container as={Stack} maxW={"6xl"} py={10}>
                 <SimpleGrid columns={{ base: 1, sm: 2, md: 2 }} spacing={8}>
                     <Stack align={"flex-start"} fontSize={"sm"}>
                         <ListHeader>Link</ListHeader>
-                        <Link href={"/"}>Home</Link>
-                        <Link href={"/chapter"}>บทที่ 1 พื้นฐานระบบเครือข่ายคอมพิวเตอร์</Link>
-                        <Link href={"/chapter/chapter2"}>บทที่ 2 อุปกรณ์ระบบเครือข่าย</Link>
-                        <Link href={"/chapter/chapter3"}>บทที่ 3 ประเภทของระบบเครือข่าย</Link>
-                        <Link href={"/chapter/chapter4"}>บทที่ 4 สื่อกลางนำสัญญาณในระบบเครือข่าย</Link>
-                        <Link href={"/chapter/chapter5"}>บทที่ 5 โปรโทคอล</Link>
+                        <Link onClick={() => navigate("/")}>Home</Link>
+                        <Link onClick={() => navigate("/chapter")}>บทที่ 1 พื้นฐานระบบเครือข่ายคอมพิวเตอร์</Link>
+                        <Link onClick={() => navigate("/chapter/chapter2")}>บทที่ 2 อุปกรณ์ระบบเครือข่าย</Link>
+                        <Link onClick={() => navigate("/chapter/chapter3")}>บทที่ 3 ประเภทของระบบเครือข่าย</Link>
+                        <Link onClick={() => navigate("/chapter/chapter4")}>บทที่ 4 สื่อกลางนำสัญญาณในระบบเครือข่าย</Link>
+                        <Link onClick={() => navigate("/chapter/chapter5")}>บทที่ 5 โปรโทคอล</Link>
                         <Link href={"https://forms.gle/2D6gvSXztwypXcT56"}>แบบทดสอบพื้นฐานคอมผิวเตอร์</Link>
                     </Stack>
                     <Stack align={"flex-end"}>
