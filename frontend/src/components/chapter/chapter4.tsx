@@ -1,47 +1,23 @@
-import { Flex, Container, Heading, Stack, Text, Button, Icon, IconProps, Grid, GridItem, Box, Spacer, Image, Badge } from "@chakra-ui/react"
-import Chapter1 from "../components/chapter/image/pic1.jpg"
-import { extendTheme } from "@chakra-ui/react"
+import {
+    Flex,
+    Container,
+    Heading,
+    Stack,
+    Text,
+    Button,
+    Icon,
+    IconProps,
+    Grid,
+    GridItem,
+    Box,
+    Spacer,
+    Image,
+    Badge,
+    ListItem,
+    OrderedList,
+} from "@chakra-ui/react"
 
 export default function chapter1() {
-    const spacing = {
-        space: {
-            px: "1px",
-            0.5: "0.125rem",
-            1: "0.25rem",
-            1.5: "0.375rem",
-            2: "0.5rem",
-            2.5: "0.625rem",
-            3: "0.75rem",
-            3.5: "0.875rem",
-            4: "1rem",
-            5: "1.25rem",
-            6: "1.5rem",
-            7: "1.75rem",
-            8: "2rem",
-            9: "2.25rem",
-            10: "2.5rem",
-            12: "3rem",
-            14: "3.5rem",
-            16: "4rem",
-            20: "5rem",
-            24: "6rem",
-            28: "7rem",
-            32: "8rem",
-            36: "9rem",
-            40: "10rem",
-            44: "11rem",
-            48: "12rem",
-            52: "13rem",
-            56: "14rem",
-            60: "15rem",
-            64: "16rem",
-            72: "18rem",
-            80: "20rem",
-            96: "24rem",
-        },
-    }
-    const theme = extendTheme({ ...spacing })
-
     return (
         <Container maxW={"9xl"}>
             <Stack textAlign={"center"} align={"center"} spacing={{ base: 8, md: 10 }} py={{ base: 20, md: 28 }}>
@@ -49,7 +25,7 @@ export default function chapter1() {
                     บทที่ 4 สื่อกลางนำสัญญาณในระบบเครือข่าย
                 </Heading>
             </Stack>
-            <Text fontSize={{ base: "3xl", sm: "1.5xl", md: "3xl" }} lineHeight={"110%"} color="black">
+            <Text fontSize={{ base: "3xl", sm: "1.5xl", md: "3xl" }} lineHeight={"110%"} color="black" p={6}>
                 4.1 สื่อกลางนำสัญญาณแบบใช้สาย
             </Text>
             <Box gap={6} p={12}>
@@ -60,7 +36,7 @@ export default function chapter1() {
                     โดยเฉพาะระบบโทรศัพท์ฟื้นฐาน ซึ่งเปรียบเสมือนกับท่อส่งข้อมูลด้วยการส่งข้อมูลผ่านท่อไปยังอุปกรณ์ต่างๆ ได้แก่สายเกลียวคู่
                     สายคแอกเชียล และเส้นใยแก้วนำแสง มีรายละเอียดดังนี้
                 </Text>
-                <Heading fontSize={"3xl"} color="#493323">
+                <Heading fontSize={"3xl"} color="#493323" p={6}>
                     4.1.1 สายเกลียวคู่ (Twisted Pair Cable)
                 </Heading>
                 <Text fontSize={"3xl"} color="#493323">
@@ -91,7 +67,7 @@ export default function chapter1() {
                         รูปที่ 4.1 รูปร่างของสายเกลียวคู่แบบไม่มีฉนวนหุ้มตีเกลียวเป็นคู่ ๆ จำนวน 4 คู่
                     </Badge>
                 </Stack>
-                <Heading fontSize={"3xl"} color="#493323">
+                <Heading fontSize={"3xl"} color="#493323" p={6}>
                     2.สายเกลียวคู่แบบชนิดมีฉนวนหุ้ม (ShieldebTwistedPair Cable : STP)
                 </Heading>
                 <Text fontSize={"3xl"} color="#493323">
@@ -108,7 +84,7 @@ export default function chapter1() {
                         รูปที่ 4.2 รูปร่างของสายเกลียวคู่แบบมีฉนวนหุ้ม
                     </Badge>
                 </Stack>
-                <Heading fontSize={"3xl"} color="#493323">
+                <Heading fontSize={"3xl"} color="#493323" p={6}>
                     4.1.2 สายโคแอกเชียล (Coaxial Cabie)
                 </Heading>
                 <Text fontSize={"3xl"} color="#493323">
@@ -130,7 +106,7 @@ export default function chapter1() {
                         รูปที่ 4.3 โครงสร้างสายโคแอกเชียล
                     </Badge>
                 </Stack>
-                <Heading fontSize={"3xl"} color="#493323">
+                <Heading fontSize={"3xl"} color="#493323" p={6}>
                     4.1.3 เส้นใยแก้วนำแสง (Optical Fiber Cable)
                 </Heading>
                 <Text fontSize={"3xl"} color="#493323">
@@ -155,14 +131,14 @@ export default function chapter1() {
                 <Heading fontSize={"3xl"} color="#493323">
                     วิธีการนี้แบ่งเป็นแบบ คือ แบบซิงเกิลโหมด
                 </Heading>
-                <Heading fontSize={"3xl"} color="#493323">
+                <Heading fontSize={"3xl"} color="#493323" p={6}>
                     1.ซิงเกิลโหมด (Single Mode)
                 </Heading>
                 <Text fontSize={"3xl"} color="#493323">
                     เป็นการใช้ตัวนำแสงให้พุ่งตรงไปตามท่อแก้วโดยมีการกระจายแสงออกทางด้านข้างน้อยที่สุด
                     ซิงเกิลโหมดจึงเป็นเส้นใยแก้วนำแสงที่มีกำลังสูญเสียทางแสงน้อยที่สุดเหมาะใช้เชื่อมต่อระยะทางไกล ๆ
                 </Text>
-                <Heading fontSize={"3xl"} color="#493323">
+                <Heading fontSize={"3xl"} color="#493323" p={6}>
                     2.มัลติโหมด (Multimode)
                 </Heading>
                 <Text fontSize={"3xl"} color="#493323">
@@ -181,7 +157,7 @@ export default function chapter1() {
                         รูปที่ 4.5 เส้นใยแก้วนำแสงแบบมัลติโหมด
                     </Badge>
                 </Stack>
-                <Heading fontSize={"3xl"} color="#493323">
+                <Heading fontSize={"3xl"} color="#493323" p={6}>
                     4.2 สื่อกลางนำสัญญาณแบบไร้สาย
                 </Heading>
                 <Text fontSize={"3xl"} color="#493323">
@@ -189,7 +165,7 @@ export default function chapter1() {
                     ซึ่งอาจจะนำมาใช้ทดแทนหรือเพิ่มต่อกับระบบเครือข่ายในที่ใช้สายแบบดั้งเดิมโดยใช้คลื่นความถี่วิทยุในย่านวิทยุและคลื่นอินฟราเรดในการรับและส่งข้อมูลระหว่างเครื่องคอมพิวเตอร์
                     ซึ่งลักษณะของสื่อกลางนำสัญญาณแบบไร้สาย (Unguided Media/Wireless Media) มีดังต่อไปนี้
                 </Text>
-                <Heading fontSize={"3xl"} color="#493323">
+                <Heading fontSize={"3xl"} color="#493323" p={6}>
                     4.2.1 คลื่นไมโครเวฟ (Microwave)
                 </Heading>
                 <Text fontSize={"3xl"} color="#493323">
@@ -209,7 +185,7 @@ export default function chapter1() {
                         รูปที่ 4.6 คลื่นไมโครเวฟฝ
                     </Badge>
                 </Stack>
-                <Heading fontSize={"3xl"} color="#493323">
+                <Heading fontSize={"3xl"} color="#493323" p={6}>
                     4.2.2 ดาวเทียม (Satellite)
                 </Heading>
                 <Text fontSize={"3xl"} color="#493323">
@@ -223,7 +199,7 @@ export default function chapter1() {
                         รูปที่ 4.7 การสื่อสารผ่านดาวเทียม http://mang017.blogspot.com/2017/07/satellite-communication.html [กรกฎาคม 18, 2560]
                     </Badge>
                 </Stack>
-                <Heading fontSize={"3xl"} color="#493323">
+                <Heading fontSize={"3xl"} color="#493323" p={6}>
                     4.2.3 คลื่นวิทยุ (Radio Wave)
                 </Heading>
                 <Text fontSize={"3xl"} color="#493323">
@@ -237,7 +213,7 @@ export default function chapter1() {
                         รูปที่ 4.8 การสื่อสารด้วยคลื่นวิทยุ http://kruthomtn.hsw.ac.th/Communication%202.htm
                     </Badge>
                 </Stack>
-                <Heading fontSize={"3xl"} color="#493323">
+                <Heading fontSize={"3xl"} color="#493323" p={6}>
                     4.2.4 ระบบอินฟราเรด (Infrared)
                 </Heading>
                 <Text fontSize={"3xl"} color="#493323">
@@ -252,7 +228,7 @@ export default function chapter1() {
                         รูปที่ 4.9 ระบบอินฟราเรด
                     </Badge>
                 </Stack>
-                <Heading fontSize={"3xl"} color="#493323">
+                <Heading fontSize={"3xl"} color="#493323" p={6}>
                     4.2.5 บลูทูธ (Bluetooth)
                 </Heading>
                 <Text fontSize={"3xl"} color="#493323">
@@ -264,7 +240,7 @@ export default function chapter1() {
                     รวมถึงจำนวนหรือความหนาแน่นของการใช้งานด้วย
                 </Text>
 
-                <Heading fontSize={"3xl"} color="#493323">
+                <Heading fontSize={"3xl"} color="#493323" p={6}>
                     4.3 มาตรฐานการเข้าหัวสายสัญญาณยูทีพี แบบ RJ-45
                 </Heading>
                 <Text fontSize={"3xl"} color="#493323">
@@ -272,38 +248,30 @@ export default function chapter1() {
                     เพื่อใช้เชื่อมต่อระหว่างอุปกรณ์เครือข่ายด้านหนึ่งเข้ากับอุปกรณ์เครือข่ายอีกด้านหนึ่งเข้าด้วยกัน
                     เช่นเชื่อมต่อระหว่างเน็ตเวิร์ดการ์ดในเครื่องคอมพิวเตอร์และอุปกรณ์สวิตช์ เป็นต้น
                 </Text>
-                <Heading fontSize={"3xl"} color="#493323">
+                <Heading fontSize={"3xl"} color="#493323" p={6}>
                     4.3.1 การเตรียมอุปกรณ์ที่ใช้สำหรับการเข้าหัวสัญญาณ
                 </Heading>
-                <Text fontSize={"3xl"} color="#493323">
-                    1. สายนำสัญญาณยูทีพี Cat5e (Twisted Pair Cable: Category 5e)
-                </Text>
-                <Text fontSize={"3xl"} color="#493323">
-                    2. หัว RJ-45
-                </Text>
-                <Text fontSize={"3xl"} color="#493323">
-                    3. คีมเข้าหัว RJ-45
-                </Text>
-                <Text fontSize={"3xl"} color="#493323">
-                    4. อุปกรณ์ตัดแต่งสาย เช่น มีดคัตเตอร์ เป็นต้น
-                </Text>
-                <Text fontSize={"3xl"} color="#493323">
-                    5. อุปกรณ์ทดสอบสายสัญญาณ
-                </Text>
-                <Heading fontSize={"3xl"} color="#493323">
+                <OrderedList fontSize={"3xl"} color="#493323">
+                    <ListItem>สายนำสัญญาณยูทีพี Cat5e (Twisted Pair Cable: Category 5e)</ListItem>
+                    <ListItem>หัว RJ-45</ListItem>
+                    <ListItem>คีมเข้าหัว RJ-45</ListItem>
+                    <ListItem>อุปกรณ์ตัดแต่งสาย เช่น มีดคัตเตอร์ เป็นต้น</ListItem>
+                    <ListItem>อุปกรณ์ทดสอบสายสัญญาณ</ListItem>
+                </OrderedList>
+                <Heading fontSize={"3xl"} color="#493323" p={6}>
                     4.3.2 วิธีการเข้าหัวสายยูทีพี RJ-45
                 </Heading>
                 <Text fontSize={"3xl"} color="#493323">
                     มี 2 แบบสายตรงและสายไขว้ มีรายละเอียดดังนี้
                 </Text>
-                <Heading fontSize={"3xl"} color="#493323">
+                <Heading fontSize={"3xl"} color="#493323" p={6}>
                     1. แบบสายตรง (Straight – through Cable)
                 </Heading>
                 <Text fontSize={"3xl"} color="#493323">
                     ปลายทั้งสองด้านเชื่อมต่อเหมือนกันตามมารตฐาน EIA/TIA 568A เป็นสายปกติทั่วไปที่ใช้เชื่อมต่อระหว่างเน็ตเวิร์ดการ์ดและสวิตช์ เช่น
                     การเชื่อมต่อระหว่างคอมพิวเตอร์กับฮับ/สวิตช์
                 </Text>
-                <Heading fontSize={"3xl"} color="#493323">
+                <Heading fontSize={"3xl"} color="#493323" p={6}>
                     2. แบบไขว้ (Crossover Cable)
                 </Heading>
                 <Text fontSize={"3xl"} color="#493323">
