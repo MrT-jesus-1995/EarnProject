@@ -1,21 +1,15 @@
 import {
-    Flex,
     Container,
     Heading,
     Stack,
     Text,
-    Button,
-    Icon,
-    IconProps,
-    Grid,
-    GridItem,
     Box,
-    Spacer,
     Image,
     Badge,
     ListItem,
     OrderedList,
 } from "@chakra-ui/react"
+
 
 export default function chapter1() {
     return (

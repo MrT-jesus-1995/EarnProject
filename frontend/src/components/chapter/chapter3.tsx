@@ -1,4 +1,4 @@
-import { Flex, Container, Heading, Stack, Text, Button, Icon, IconProps, Grid, GridItem, Box, Spacer, Image, Badge, Center } from "@chakra-ui/react"
+import { Container, Heading, Stack, Text, Box, Image, Badge } from "@chakra-ui/react"
 
 export default function chapter1() {
     return (

@@ -1,16 +1,9 @@
 import {
-    Flex,
     Container,
     Heading,
     Stack,
     Text,
-    Button,
-    Icon,
-    IconProps,
-    Grid,
-    GridItem,
     Box,
-    Spacer,
     Image,
     Badge,
     ListItem,
@@ -21,9 +14,9 @@ export default function chapter1() {
     return (
         <Container maxW={"9xl"}>
             <Stack textAlign={"center"} align={"center"} spacing={{ base: 8, md: 10 }} py={{ base: 20, md: 28 }}>
-                <Heading fontWeight={600} fontSize={{ base: "2xl", sm: "3xl", md: "4xl" }} lineHeight={"110%"}>
-                    บทที่ 5 โปรโทคอล
-                </Heading>
+                    <Heading fontWeight={600} fontSize={{ base: "2xl", sm: "3xl", md: "4xl" }} lineHeight={"110%"} >
+                        บทที่ 5 โปรโทคอล
+                    </Heading>
             </Stack>
             <Text fontSize={{ base: "3xl", sm: "1.5xl", md: "3xl" }} lineHeight={"110%"} color="black">
                 5.1 องค์กรในการกำหนดมาตรฐานในการพัฒนาระบบเครือข่าย

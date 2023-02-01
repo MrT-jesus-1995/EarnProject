@@ -40,4 +40,8 @@ const colors: ChakraTheme["colors"] = {
 export const theme = extendTheme({
     styles,
     colors,
+    fonts: {
+        heading: `'Mali', cursive`,
+        body: `'Mali', cursive`,
+    },
 })
