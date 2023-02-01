@@ -1,22 +1,14 @@
 import {
-    Flex,
     Container,
     Heading,
     Stack,
     Text,
-    Button,
-    Icon,
-    IconProps,
-    Grid,
-    GridItem,
     Box,
-    Spacer,
     Image,
     Badge,
     ListItem,
     OrderedList,
 } from "@chakra-ui/react"
-import { motion } from "framer-motion"
 
 
 export default function chapter1() {
