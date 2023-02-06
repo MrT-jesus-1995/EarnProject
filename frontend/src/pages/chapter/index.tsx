@@ -13,7 +13,7 @@ const Home = () => {
                 <Image
                     w="100%"
                     // h={200}
-                    src="https://raw.githubusercontent.com/MrT-jesus-1995/EarnProject/Alpha/frontend/src/components/image/1.png"
+                    src="https://raw.githubusercontent.com/MrT-jesus-1995/EarnProject/Alpha/frontend/src/components/image/2.png"
                 />
                 <Header />
                 <Chapter1 />
