@@ -10,7 +10,8 @@ const Home = () => {
     return (
         <>
             <Box bgGradient="linear(to-l, #FAAB78, #FFE6F7, #E5B8F4 )">
-                <Image src="https://raw.githubusercontent.com/MrT-jesus-1995/EarnProject/Alpha/frontend/src/components/image/2.png" />
+                <Image w="100%" src="https://raw.githubusercontent.com/MrT-jesus-1995/EarnProject/Alpha/frontend/src/components/image/2.png" />
+                <Header />
                 <Chapter5 />
                 <Footer />
             </Box>
