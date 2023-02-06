@@ -26,51 +26,19 @@ export default function CallToActionWithIllustration() {
     let navigate = useNavigate()
     return (
         <Container maxW={"9xl"}>
-            <Stack minH={"30vh"} direction={{ base: "column", md: "row" }}>
-                <Flex p={8} flex={1} align={"center"} justify={"center"}>
-                    <Stack spacing={6} w={"full"} maxW={"lg"}>
-                        <Heading fontWeight={600} fontSize={{ base: "3xl", sm: "4xl", md: "6xl" }} lineHeight={"110%"}>
-                            เว็บไซต์
-                            <Text
-                                as={"span"}
-                                position={"relative"}
-                                color={"#42D2C3"}
-                                _after={{
-                                    content: "''",
-                                    width: "full",
-                                    height: useBreakpointValue({ base: "20%", md: "30%" }),
-                                    position: "absolute",
-                                    bottom: 1,
-                                    left: 0,
-                                    bg: "blue.400",
-                                    zIndex: -1,
-                                }}
-                            >
-                                ทบทวนบทเรียน
-                            </Text>
-                            <Text color={"blue.400"} as={"span"}>
-                                ออนไลน์{" "}
-                            </Text>{" "}
-                        </Heading>
-                        <Text fontSize={{ base: "md", lg: "lg" }} color={"gray.500"}>
-                            The project board is an exclusive resource for contract work. It's perfect for freelancers, agencies, and moonlighters.
-                        </Text>
-                    </Stack>
-                </Flex>
-                <Flex flex={1} justify={"center"} align={"center"} position={"relative"} w={"full"}>
-                    <Box position={"relative"} height={"250px"} rounded={"2xl"} boxShadow={"2xl"} width={"500px"} overflow={"hidden"}>
-                        <Image
-                            alt={"Hero Image"}
-                            fit={"cover"}
-                            align={"center"}
-                            w={"100%"}
-                            h={"100%"}
-                            src={
-                                "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80"
-                            }
-                        />
-                    </Box>
-                </Flex>
+            <Stack textAlign={"center"} align={"center"} spacing={{ base: 8, md: 10 }} py={{ base: 20, md: 28 }}>
+                <Heading fontWeight={600} fontSize={{ base: "3xl", sm: "4xl", md: "6xl" }} lineHeight={"110%"}>
+                    เว็บไซต์ทบทวนบทเรียน
+                    <Text as={"span"} color={"#42D2C3"}>
+                        ออนไลน์
+                    </Text>
+                </Heading>
+                <Text color={"gray.500"} maxW={"3xl"} fontSize={{ base: "xl", sm: "1xl", md: "5xl" }}>
+                    <Text as={"span"} color={"#65BED1"}>
+                        วิชา{" "}
+                    </Text>
+                    เครือข่ายคอมพิวเตอร์เบื้องต้น
+                </Text>
             </Stack>
             <Box w="100%" h="100%">
                 <Center>
