@@ -10,7 +10,10 @@ const Home = () => {
     return (
         <>
             <Box bgGradient="linear(to-l,#D3EBCD , #DFE8CC , #F7EDDB )">
-                <Image src="../../components/image/1.png"/>
+                <Image
+                    w="100%"
+                    src="https://www.canva.com/design/DAFZnxmjO6o/a7YdrUmRP8Ee110HZcCkqw/view?utm_content=DAFZnxmjO6o&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+                />
                 <Header />
                 <Chapter2 />
                 <Footer />

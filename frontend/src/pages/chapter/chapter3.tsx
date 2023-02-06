@@ -11,7 +11,6 @@ const Home = () => {
         <>
             <Box bgGradient="linear(to-l, #FFCEFE  , #AEE2FF)">
             <Image src="../../components/image/1.png"/>
-
                 <Header />
                 <Chapter3 />
                 <Footer />

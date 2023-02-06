@@ -10,7 +10,11 @@ const Home = () => {
     return (
         <>
             <Box bgGradient="linear(to-l, #C3F8FF , #B6FFCE)">
-                <Image src="../../components/image/1.png" />
+                <Image
+                    w="100%"
+                    // h={200}
+                    src="https://raw.githubusercontent.com/MrT-jesus-1995/EarnProject/Alpha/frontend/src/components/image/1.png"
+                />
                 <Header />
                 <Chapter1 />
                 <Footer />
