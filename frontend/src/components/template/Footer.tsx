@@ -49,7 +49,7 @@ export default function LargeWithAppLinksAndSocial() {
                         <Link onClick={() => navigate("/chapter/chapter3")}>บทที่ 3 ประเภทของระบบเครือข่าย</Link>
                         <Link onClick={() => navigate("/chapter/chapter4")}>บทที่ 4 สื่อกลางนำสัญญาณในระบบเครือข่าย</Link>
                         <Link onClick={() => navigate("/chapter/chapter5")}>บทที่ 5 โปรโทคอล</Link>
-                        <Link href={"https://forms.gle/2D6gvSXztwypXcT56"}>แบบทดสอบพื้นฐานคอมผิวเตอร์</Link>
+                        <Link href={"https://forms.gle/2D6gvSXztwypXcT56"}>แบบทดสอบพื้นฐานคอมพิวเตอร์</Link>
                     </Stack>
                     <Stack align={"flex-end"}>
                         <ListHeader>Contact</ListHeader>
