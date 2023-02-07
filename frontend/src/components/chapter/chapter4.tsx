@@ -1,15 +1,4 @@
-import {
-    Container,
-    Heading,
-    Stack,
-    Text,
-    Box,
-    Image,
-    Badge,
-    ListItem,
-    OrderedList,
-} from "@chakra-ui/react"
-
+import { Container, Heading, Stack, Text, Box, Image, Badge, ListItem, OrderedList } from "@chakra-ui/react"
 
 export default function chapter1() {
     return (
@@ -274,7 +263,7 @@ export default function chapter1() {
                     กับสวิตช์ลักษณะของปลายสายที่เข้าหัว RJ-45 ทั้งสองฝั่งจะต้องไม่เหมือนกัน ซึ่งได้อธิบายหลักวิธีการจัดเรียงแบบสายไขว้
                     โดยจะสลับกันระหว่างเส้นที่ 1 (TX+) ไปเป็นเส้นสายที่ 3 (RX+) และเส้นสายที่ 2 (TX-) ไปเป็นเส้นที่ 6 (RX-)
                 </Text>
-                <Heading fontSize={"3xl"} color="#8C0000">
+                <Heading fontWeight={600} fontSize={{ base: "2xl", sm: "3xl", md: "4xl" }} lineHeight={"110%"} color="#8C0000" p={6}>
                     สรุปสาระสำคัญ
                 </Heading>
                 <Text fontSize={"3xl"} color="#8C0000">

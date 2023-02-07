@@ -138,7 +138,7 @@ export default function chapter1() {
                         รูปที่ 3.6 เครือข่ายระดับประเทศ (Wide Area Network)
                     </Badge>
                 </Stack>
-                <Heading fontSize={"3xl"} color="#B30753">
+                <Heading fontWeight={600} fontSize={{ base: "2xl", sm: "3xl", md: "4xl" }} lineHeight={"110%"} color="#B30753" p={6}>
                     สรุปสาระสำคัญ
                 </Heading>
                 <Text fontSize={"3xl"} color="#B30753">

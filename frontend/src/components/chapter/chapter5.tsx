@@ -1,22 +1,12 @@
-import {
-    Container,
-    Heading,
-    Stack,
-    Text,
-    Box,
-    Image,
-    Badge,
-    ListItem,
-    OrderedList,
-} from "@chakra-ui/react"
+import { Container, Heading, Stack, Text, Box, Image, Badge, ListItem, OrderedList } from "@chakra-ui/react"
 
 export default function chapter1() {
     return (
         <Container maxW={"9xl"}>
             <Stack textAlign={"center"} align={"center"} spacing={{ base: 8, md: 10 }} py={{ base: 20, md: 28 }}>
-                    <Heading fontWeight={600} fontSize={{ base: "2xl", sm: "3xl", md: "4xl" }} lineHeight={"110%"} >
-                        บทที่ 5 โปรโทคอล
-                    </Heading>
+                <Heading fontWeight={600} fontSize={{ base: "2xl", sm: "3xl", md: "4xl" }} lineHeight={"110%"}>
+                    บทที่ 5 โปรโทคอล
+                </Heading>
             </Stack>
             <Text fontSize={{ base: "3xl", sm: "1.5xl", md: "3xl" }} lineHeight={"110%"} color="black">
                 5.1 องค์กรในการกำหนดมาตรฐานในการพัฒนาระบบเครือข่าย
@@ -354,7 +344,7 @@ export default function chapter1() {
                     แล้วส่งไปยังโหนดปลายทาง เมื่อผู้รับได้รับข้อมูลจะส่งข้อมูลให้ชั้นติดต่อเครือข่ายอินเทอร์เน็ต ภายในชั้นไม่มีการกำหนดมาตรฐาน
                     แต่ทีซีพี/ไอพี สามารถให้ได้กับเครือข่ายหลายประเภท เช่น อีเทอร์เน็ต เอทีเอ็ม พีพีพี และไอเอสดีเอ็น เป็นต้น
                 </Text>
-                <Heading fontSize={"3xl"} color="#16213E" p={6}>
+                <Heading fontWeight={600} fontSize={{ base: "2xl", sm: "3xl", md: "4xl" }} lineHeight={"110%"} color="#16213E" p={6}>
                     สรุปสาระสำคัญ
                 </Heading>
                 <Text fontSize={"3xl"} color="#16213E">

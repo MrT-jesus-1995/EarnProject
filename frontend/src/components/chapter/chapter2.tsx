@@ -5,7 +5,7 @@ export default function chapter1() {
         <Container maxW={"9xl"}>
             <Stack textAlign={"center"} align={"center"} spacing={{ base: 8, md: 10 }} py={{ base: 20, md: 28 }}>
                 <Heading fontWeight={600} fontSize={{ base: "2xl", sm: "3xl", md: "4xl" }} lineHeight={"110%"}>
-                    บทที่2 อุปกรณ์ระบบเครือข่าย
+                    บทที่ 2 อุปกรณ์ระบบเครือข่าย
                 </Heading>
             </Stack>
             <Text fontSize={{ base: "3xl", sm: "1.5xl", md: "3xl" }} lineHeight={"110%"} color="black">
@@ -278,7 +278,7 @@ export default function chapter1() {
                         รูปที่ 2.15 เสาอากาศ (Antenna)
                     </Badge>
                 </Stack>
-                <Heading fontSize={"3xl"} color="#8C0000">
+                <Heading fontWeight={600} fontSize={{ base: "2xl", sm: "3xl", md: "4xl" }} lineHeight={"110%"} color="#8C0000" p={6}>
                     สรุปสาระสำคัญ
                 </Heading>
                 <Text fontSize={"3xl"} color="#8C0000">
