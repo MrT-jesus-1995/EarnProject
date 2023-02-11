@@ -35,7 +35,7 @@ export default function CallToActionWithIllustration() {
                 </Heading>
                 <Text color={"gray.500"} maxW={"3xl"} fontSize={{ base: "xl", sm: "1xl", md: "5xl" }}>
                     <Text as={"span"} color={"#65BED1"}>
-                        วิชา{" "}
+                        วิชา
                     </Text>
                     เครือข่ายคอมพิวเตอร์เบื้องต้น
                 </Text>
