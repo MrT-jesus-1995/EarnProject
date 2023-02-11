@@ -1,7 +1,10 @@
+import * as React from "react"
+import { Global } from "@emotion/react"
 import { ChakraTheme, extendTheme } from "@chakra-ui/react"
 
 const styles: ChakraTheme["styles"] = {
     global: (props) => ({
+
         "html, body": {
             background: "gray.50",
             color: "gray.600",
