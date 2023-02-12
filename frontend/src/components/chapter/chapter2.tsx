@@ -249,7 +249,7 @@ export default function chapter1() {
                     <Stack display="flex" mt="2" alignItems="center" py={{ base: 10, md: 18 }}>
                         <Image
                             boxSize="500px"
-                            src="https://sites.google.com/site/nganbrikarkhxngkhxmphiwtexr/_/rsrc/1486690718984/kar-cheuxm-tx-rabb-kherux-khay-lan-ri-say-ni-rabb-ptibati-ngan/6.jpg"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaEtKO7dTXxaXI9AtkiWjM7QxhuGX9WJEw_A&usqp=CAU"
                         />
                         <Badge borderRadius="full" px="2" colorScheme="teal" fontSize={"md"}>
                             รูปที่ 2.14 การ์ดแลนไร้สายแบบยูเอสบี (Universal Serial Bus: USB)
